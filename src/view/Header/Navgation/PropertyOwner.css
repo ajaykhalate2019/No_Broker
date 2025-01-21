@@ -1,0 +1,79 @@
+.sell-or-rent-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .sell-or-rent-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .left-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-section li {
+    margin: 5px 0;
+  }
+  
+  .testimonials {
+    margin-top: 20px;
+  }
+  
+  .right-section {
+    flex: 2;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .phone-input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .property-type button,
+  .property-ad-type button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .property-type .active,
+  .property-ad-type .active {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    background-color: #fff4e6;
+    padding: 10px;
+    text-align: center;
+  }
+  

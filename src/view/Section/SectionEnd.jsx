@@ -1,0 +1,76 @@
+import React from 'react';
+import './SectionEnd.css';
+import pho from '../../assets/section-2.png';
+import pho1 from '../../assets/section.png';
+
+const SectionEnd = () => {
+  return (
+    <>
+    <div className="why-use">
+      <h2>Why Use NoBroker</h2>
+      <div className="benefits">
+          <div className="benefit-card">
+              <img src="data:image/png;base64,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" alt="Avoid Brokers" />
+              <h3>Avoid Brokers</h3>
+              <p>We directly connect you to verified owners to save brokerage.</p>
+          </div>
+          <div className="benefit-card">
+              <img src="data:image/png;base64,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" alt="Free Listing" />
+              <h3>Free Listing</h3>
+              <p>Easy listing process. Also using WhatsApp.</p>
+          </div>
+          <div className="benefit-card">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAABICAYAAAER0ZzYAAAAAXNSR0IArs4c6QAAB6RJREFUaAXtWl9sFEUYv7te22saUQuKxBiqJIqEqEQhplcMBKEJvvSPoIlAxEBpw4t/XjQxoU/GmEA0wbRQApI0xlShTxIBY30AjQRJNAhITFFETIQeFVNu77p36+/bu287O7N7e3t7R9uETfZm5vv7m2+/mZ2ZvXAIV19f35PhcPhGfX392IYNG24SLdTb23vOrOR/
+              RtpfO0XVCCTDIuPqvDmzkk2tRtTAJTKaP/5goalBPzBnY1oMWDtCDdslO2dmhCpsikquK3BZIzw8PBwdGRlZUF1dfSMWi42tX78+zUxbSX0ggunDxkFDi7ftlmlmu7+//3EbKlHK0RQJmIzu7m5bIIkRpR+6rI7lmotyhfRLzunpvSTRbU1+cEyM4DHt4IZbScHggETlJy4rPXJ4/zLG27uxZTITmOjUU6ZRH6xeM1H2ILctBfLASuxNFGaepcAEEhLrohLVrUeH8H7pZFlWCCGs4X379i1WGA4EMmg+e/T+aShqdEej0SSVmUxG6+zs1BD2rE0XUK7aCEIDFnu0eGtu7ObpkaqqqlWCjFLFeL1La2pdwwyr00xwKjFIjjK9oEIkErnIglYuMcGp3LZt26dGX98uBGEu8ZFL56wH56RAtK6urgeYhyCcsyBRjOlmpltpKbgJyHQLUqH8EZUsDwSH8klkOtVtHrgPXIoKjMBSICYTuRQVuG5BYoJXafNAUMh6UZBICKlsdroQJMtDISEbTCf3NoF8g0Ylcir32oLST6A/gftHwCKv9OaiSY7q1VQnGrUFuslbc+zUaZrswHe8ojB+BorIya7vHSUKEKHbA/ZaGiqwMRQ7OdQui9Nji2FUj8kMv230rI0cGevW1Ym6vvNCVHaqa39N3ErG26x5S1k+OCm50ZAZPUdXL12aiUT+s8kYxjzqTfq5jiXKMsQmWESD0q/bQY5eVLquHyp7iGRflGq2i/KcB4Vctwm6NFiX2YoDUcCtzsrFlBUPkeKAwsLIxDrT/JZKiDAij7Bh1D2ncC+HigNMGS94KfnhKw7oxYNhv5aMUG+COlQckHHOHg6VH8SyrPKQ2TgJinVZsdg2zUUXMKQLrpGKNSbKkU2ybS7xBgcH6xKJxDWEp14UKrUOw+MNDQ33YSOTtPYPe/bsWYD3wiysHXWsu3Qq4XACa0qd7nQ6rdfU1OjY4unj4+N6Y2OjvnLlSr0QCHq9PwiBK7hHcV+GZ/GVWA2a2LbqcEzJEX114Nj7dSeH3kFduUjgCvZks7ds2ZJQuB4EM7sM4+3Uio6Dtd8euiCLm5lTimHRUDadOY+eWCFmnpKWzPBbpuLtSvzLZtwIGREs7c+IoMpmnIxiul2iNbdtZwdlNW46yBq7jeXt86heduNkVMtkzWVJIOMYbG98s+qZf8mgfGlNbbeUWVIWKtTGhuhDTNuJTza2HHSQq5NPCRxkSiPRAAsUFi+3FTWuxFx8GwV9cSjGqatkVHSyd+/e45iCn/cKA6bsr7HVX81yjsZFwyQoKrBiMaViPGgoRKcVfaAVNa6ERYx30BA5Ig9qlOOuIGeGWPpIxePILOssyNG4GBpycicVxVAHrisxF+MdNGsU4wSXjIpOfGSL98Qlx6PUbHEcRCJq2ZGfthKWoHEWnTsiFwWC1CtrHIv9YcT4dBCEsi7ZI7vmmhoLm51YX78pC5XahuFd2NO+ZS3YsfGqGR0dfReM7XDUUKphv3pP/fL7Z8/OqXsl3NNjP78vwpCZjQjTVwDeAvmzAL8WvfqhCN1AIvDZAwM75l69tiB1JqGnmts7ak8cHvJjlI4/v4BCC0C/DtAf+VEulyz2JWEjmz2MxfeF2vC9y8In99vPCl0c0Wgyv7JhTXbMRea2kbF7W6gZiZupeKvj7lkGUtGpQHZWbDtrhN5LNrVdT654ubGQzrQEnwNszA6ltUs4v3bafpki0xh8PuaGsQljIT2xvD0uP4VAh/GyMT9tTBApks9Eo1VeehgL1XomewJP4YTR2UmnTuY1ZZEH+H4gSH7XtHhJNhJx3PrnMU4WhhHXzv6TTje3bSJiGG8/Ol1aiMO5RVu3bj0/KVn5Gp1q4cBwEOWLMS0Vmn/52s37r4+NVWWzni8srbbmb2XJVHnIkx4QfTrpX0cUdCBCH/d+w/cfYHdNJcg9BPE+3MnA34fIcTkudISi/XP+djWZ/+5k8qcs513R+WB4po34hUK0i0gF/loh2iul7gkeOWZ+WhG3D1gPgZyjl+K0XDqe4P04KnaLWKxNrLdsBw+ynid4Sg+KMkVbVAZd+UxX6hZUtOun7gk+6Fc4P2D8ys7o2WZGg/dMGznXxUcrzkAi/XbVPcEzEBGoW4cqMNvYDq4YC5dFg3cDzIaonHazjRhxEeh0qM/oAXsH/FSlkOeALTRQp3o8eILnqIpA3TpUgaky2MKMwbsBZj6Vd6ZKMRoe9Zk922Bdbh7+YMc+y6Oj04LNOAk3RX4noQLx84GBgWndAZzx3E0481HcaX4ZwXnJ/ImJiaMgPpZn/ImeXaKNar49ZQVwhAHjYQCg8xq6
+              fsV/xFrwV64/rM86OXoodODAgRj+aPco/mdxD/6Fo/BZ7naViLSBvewYTvQubt68WRP9/g/5QDqF55nvmwAAAABJRU5ErkJggg==" alt="Shortlist without Visit" />
+              <h3>Shortlist without Visit</h3>
+              <p>Extensive information makes it easy.</p>
+          </div>
+          <div className="benefit-card">
+              <img src="data:image/png;base64,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" alt="Rental Agreement" />
+              <h3>Rental Agreement</h3>
+              <p>Assistance in creating Rental agreement & Paperwork.</p>
+          </div>
+      </div>
+    </div>
+    
+    <div className="end-section">
+      <img src={pho} alt="" />
+    </div>
+    
+    <div className="we-make">
+       <h2>We Make A Difference</h2>
+    </div>
+    
+    <div className="starts-section">
+      <div className="start-item">
+        <h2>₹130 cr+</h2>
+        <h3>Brokerage saved monthly</h3>
+      </div>
+    
+      <div className="start-item">
+        <h2>30 Lakh+</h2>
+        <h3>Customers Connected Monthly</h3>
+      </div>
+    
+      <div className="start-item">
+        <h2>2 Lakh+</h2>
+        <h3>New Listings Monthly</h3>
+      </div>
+    </div>
+    
+    
+    <div className="end-section">
+      <img src={pho1} alt="" />
+    </div>
+    </>
+  )
+}
+
+export default SectionEnd;

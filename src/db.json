@@ -1,0 +1,62 @@
+ [
+      {
+        "id": "P101",
+        "type": "Apartment",
+        "img": "https://www.google.com/imgres?q=apartments%20pune&imgurl=https%3A%2F%2Favaantiresidences.com%2Fwp-content%2Fuploads%2F2020%2F11%2FA-guide-for-luxury-apartments-in-Pune-1.jpg&imgrefurl=https%3A%2F%2Favaantiresidences.com%2Fa-guide-for-luxury-apartments-in-pune%2F&docid=mpBd3HzvDaK3AM&tbnid=YZQUJNA_y7tvNM&vet=12ahUKEwifmt2_9faKAxWpqFYBHUwoG2YQM3oECHEQAA..i&w=800&h=471&hcb=2&ved=2ahUKEwifmt2_9faKAxWpqFYBHUwoG2YQM3oECHEQAA"
+      ,
+        "location": {
+          "city": "Bangalore",
+          "locality": "Koramangala",
+          "address": "5th Block, Koramangala, Bangalore"
+        },
+        "features": {
+          "bedrooms": 3,
+          "bathrooms": 2,
+          "furnished": "Semi-furnished",
+          "parking": true,
+          "area_sqft": 1500
+        },
+        "price": {
+          "rent": 40000,
+          "deposit": 200000
+        },
+        "availability": {
+          "listed_date": "2025-01-10",
+          "available_from": "2025-02-01"
+        },
+        "owner": {
+          "name": "Anil Kumar",
+          "contact": "9876543210",
+          "email": "anil.kumar@example.com"
+        }
+    },
+      {
+        "id": "P102",
+        "type": "Villa",
+        "location": {
+          "city": "Mumbai",
+          "locality": "Powai",
+          "address": "Hiranandani Gardens, Powai, Mumbai"
+        },
+        "features": {
+          "bedrooms": 4,
+          "bathrooms": 3,
+          "furnished": "Fully-furnished",
+          "parking": true,
+          "area_sqft": 3000
+        },
+        "price": {
+          "rent": 120000,
+          "deposit": 600000
+        },
+        "availability": {
+          "listed_date": "2025-01-12",
+          "available_from": "2025-01-20"
+        },
+        "owner": {
+          "name": "Sneha Kapoor",
+          "contact": "9123456780",
+          "email": "sneha.kapoor@example.com"
+        }
+      }
+    ]

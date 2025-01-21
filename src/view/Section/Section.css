@@ -1,0 +1,183 @@
+.header {
+    padding: 20px 0;
+    background-color: #fff;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #555;
+}
+
+.header .guarantee {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #fff4db;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #444;
+}
+
+.search-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+}
+
+.search-bar2 {
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+
+}
+
+.search-bar2 select {
+    padding: 8px;
+    width: 200px;
+    border: 2px solid #959090;
+}
+.tabs button {
+    flex: 1;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    background: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    color: #e60023;
+    font-weight: bold;
+    border-bottom: 2px solid #e60023;
+}
+
+.search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.search-bar select,
+.search-bar input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.search-bar input[type="radio"] {
+    margin-right: 5px;
+}
+
+.search-bar .search-button {
+    background-color: #e60023;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar .search-button:hover {
+    background-color: #cc001f;
+}
+
+.search-bar2 select,
+.search-bar2 input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.post-free {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.post-free button {
+    padding: 10px 20px;
+    background-color: #00afab;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-free button:hover {
+    background-color: #008f8c;
+}
+
+.eligibility {
+    margin-top: 25px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    background-color: #384d6c;
+    color: #fff;
+    height: 50px;
+    justify-content: center;
+    
+}
+.eligibility p{
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.eligibility button{
+
+        border-radius: 8px;
+        padding: 5px;
+        margin-left: 10px;
+        font-size: 10px
+}
+
+.builderHomeTile { 
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.btype { 
+    text-align: center;
+    margin: 15px;
+    padding: 20px;
+    max-width: 150px;  
+}
+
+.btype img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.btype h3 {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #444;
+}
+

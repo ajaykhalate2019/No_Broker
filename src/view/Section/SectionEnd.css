@@ -1,0 +1,89 @@
+.why-use {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.why-use h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #444;
+}
+
+.benefits {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.benefit-card {
+    max-width: 180px;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+.benefit-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.benefit-card h3 {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+.benefit-card p {
+    font-size: 12px;
+    color: #666;
+}
+
+.we-make {
+    padding: 30px 20px;
+    text-align: center;
+
+}
+
+.we-make h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #444;
+}
+
+.starts-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+}
+
+.start-item {
+    text-align: center;
+}
+
+.start-item h2 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #e60023;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    color: #e60023;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.start-item h3 {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.end-section img {
+  width: 100%;
+}
