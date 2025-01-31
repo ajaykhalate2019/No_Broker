@@ -6,7 +6,7 @@ function Sign_up() {
     <>
         <div className="overlay" id="overlay">
     <div className="modal">
-      <button className="close-button" onclick={closeModal()}>×</button>
+      <button className="close-button" onclick={closeModal}>×</button>
       <div className="modal-content">
         <h2>Login / Sign up</h2>
         <p>✔ Zero Brokerage.<br/>✔ Thousands of new listings daily.<br/>✔ 100 Cr+ Brokerage saved monthly.</p>

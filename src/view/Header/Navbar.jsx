@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css'
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import Pho from '../../assets/logo.png'
 
 const Navbar = ()=> {
@@ -12,24 +12,23 @@ const Navbar = ()=> {
       <span><b>NO</b>BROKER</span>
     </div>
     <ul className="nav-links">
-      <li>
-        <button className="pay-rent-btn">
-        <Link to="/pay-rent">Pay Rent</Link>
-        </button>
-        </li>
 
-      <li>
-        <button className="property-btn">
-      <Link to="/property-owners" className="link-button">For Property Owners</Link>
-      </button>
+      <li>  <Link to="/PayRent">
+      <button className="pay-rent-btn">Pay Rent</button>
+      </Link>
+      </li>
+
+      <li> <Link to="/PropertyOwner">
+      <button className="property-btn">For Property Owners</button>
+      </Link>
       </li>
 
       <li>
-        <Link to="/signup">Sign up</Link>
+      <Link to="/Sign_up">Sign up</Link>
         </li>
 
       <li>
-      <Link to="/login">Log in</Link>
+      <Link to="/Log_in">Log in</Link>
       </li>
 
       <li>
@@ -46,7 +45,6 @@ const Navbar = ()=> {
     </ul>
   </nav>
     </>
-  )
-}
-
+  );
+};
 export default Navbar;
